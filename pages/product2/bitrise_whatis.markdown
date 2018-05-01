@@ -1,8 +1,9 @@
 ---
 title: What is Bitrise
-thumbnail: /images/uploads/steve-on-skype.gif
 sidebar: product2_sidebar
-permalink: bitrise_whatis.html
+permalink: bitrise_whatis2.html
+summary: "Bitrise is a Continous Delivery and Integration Platform, focused on mobile app development."
+folder: product2
 ---
 
 In short __Bitrise__ is a [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)

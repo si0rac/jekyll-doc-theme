@@ -1,7 +1,7 @@
 ---
 title: Testing the CMS
 sidebar: product1_sidebar
-permalink: 2018-05-01-testing-the-cms.html
+permalink: testing_the_cms.html
 summary: "Bitrise is a Continous Delivery and Integration Platform, focused on mobile app development."
 folder: product1
 ---
