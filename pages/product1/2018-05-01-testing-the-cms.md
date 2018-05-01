@@ -12,3 +12,5 @@ sidebar: product1_sidebar
 {% include custom/reuse.md %}
 
 If I update here, it will be pushed immediately?
+
+{% include custom/2018-05-01-reuse-test-2.md %}
