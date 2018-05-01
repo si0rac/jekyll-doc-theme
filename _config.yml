@@ -110,5 +110,5 @@ description: "This is a new Bitrise employee desperately trying to understand th
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://bitrise.io
+url: https://jekyll-test-956825.netlify.com
 baseurl:
