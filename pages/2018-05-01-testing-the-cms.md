@@ -6,4 +6,4 @@ thumbnail: /images/uploads/steve-on-skype.gif
 ---
 ## I don't really care
 
-**The content isn't really the point here**, `is it`?
+**The content isn't really the point here**, `is it`? Reviewed.
