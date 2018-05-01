@@ -8,8 +8,8 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "Pages of Product 1" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
+  - name: "pages_product1" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages of Product 1" # Used in the UI
     folder: "pages/product1" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -20,8 +20,8 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-- name: "Pages of Product 2" # Used in routes, e.g., /admin/collections/blog
-  label: "Pages" # Used in the UI
+- name: "pages_product2" # Used in routes, e.g., /admin/collections/blog
+  label: "Pages of Product 2" # Used in the UI
   folder: "pages/product2" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
