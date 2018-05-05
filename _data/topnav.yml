@@ -1,0 +1,17 @@
+---
+topnav:
+- title: Topnav
+  items:
+  - title: GitHub
+    external_url: https://github.com/tomjoht/documentation-theme-jekyll
+  - title: News
+    url: "/news"
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+  - title: Bitrise Devcenter
+    folderitems:
+    - title: Bitrise.io
+      external_url: https://www.bitrise.io
+    - title: Bitrise documentation
+      external_url: http://devcenter.bitrise.io
