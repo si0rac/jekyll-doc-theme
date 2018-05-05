@@ -105,6 +105,7 @@ sidebars:
 - Bitrise_CLI
 - Bitrise_API
 - Troubleshooting
+- home_sidebar
 
 description: "This is a new Bitrise employee desperately trying to understand this theme."
 # the description is used in the feed.xml file
