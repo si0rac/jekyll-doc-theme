@@ -1,0 +1,42 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Bitrise Devcenter
+  version: 6.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Getting started with Bitrise.io
+    output: web, pdf
+    folderitems:
+
+    - title: Connecting a repository
+      url: /connecting-a-repository.html
+      output: web, pdf
+
+  - title: Infrastructure
+    output: web, pdf
+    folderitems:
+
+    - title: Virtual Machines
+      url: /virtual-machines.html
+      output: web, pdf
+
+    - title: Available Stacks
+      url: /available-stacks.html
+      output: web, pdf
+
+  
