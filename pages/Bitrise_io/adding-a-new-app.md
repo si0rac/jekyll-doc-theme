@@ -13,7 +13,7 @@ tags: []
 keywords: ''
 last_updated: ''
 summary: ''
-folder: ''
+folder: "/Bitrise_io"
 tagName: ''
 type: ''
 ---
