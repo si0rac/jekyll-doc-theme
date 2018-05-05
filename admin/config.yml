@@ -8,9 +8,9 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "pages_product1" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages of Product 1" # Used in the UI
-    folder: "pages/product1" # The path to the folder where the documents are stored
+  - name: "Bitrise_CLI" # Used in routes, e.g., /admin/collections/blog
+    label: "Bitrise CLI" # Used in the UI
+    folder: "pages/Bitrise_CLI" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -23,9 +23,9 @@ collections:
       - {label: "Sidebar", name: "sidebar", widget: "string", default: "product1_sidebar"}
 
 
-  - name: "pages_product2" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages of Product 2" # Used in the UI
-    folder: "pages/product2" # The path to the folder where the documents are stored
+  - name: "bitrise_io" # Used in routes, e.g., /admin/collections/blog
+    label: "Bitrise.io" # Used in the UI
+    folder: "pages/Bitrise_io" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -35,7 +35,7 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "permalink", name: "permalink", widget: "string", default: "{{slug}}.html"}
-      - {label: "Sidebar", name: "sidebar", widget: "string", default: "product2_sidebar"}
+      - {label: "Sidebar", name: "sidebar", widget: "string", default: "Bitrise_io"}
 
   - name: "reuse" # Used in routes, e.g., /admin/collections/blog
     label: "Reuseable content" # Used in the UI
