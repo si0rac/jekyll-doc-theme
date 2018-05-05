@@ -1,0 +1,44 @@
+---
+pages:
+- _tooltips/soccer.html
+- _tooltips/football.html
+- _tooltips/basketball.html
+- _tooltips/baseball.html
+hide_body: false
+is_partial: false
+fields:
+- name: doc_id
+  label: Doc id
+  type: text
+  hidden: false
+  default: ''
+- name: product
+  label: Product
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: page
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: search
+  label: Search
+  type: boolean
+  hidden: false
+  default: true
+- name: tooltip
+  label: Tooltip
+  type: boolean
+  hidden: false
+  default: true
