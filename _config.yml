@@ -107,6 +107,8 @@ sidebars:
 - Bitrise_API
 - Troubleshooting
 
+plugins:
+- jekyll-menus
 
 description: "This is a new Bitrise employee desperately trying to understand this theme."
 # the description is used in the feed.xml file
