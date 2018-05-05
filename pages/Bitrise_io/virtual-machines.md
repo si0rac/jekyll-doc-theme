@@ -1,9 +1,12 @@
 ---
 title: Virtual Machines
-tags: [formatting]
+tags:
+- formatting
 keywords: popovers, tooltips, user interface text, glossaries, definitions
 last_updated: July 3, 2016
-summary: "On [bitrise.io](https://www.bitrise.io), we have `macOS` and `Linux` virtual machines hosted for your builds. You can select from multiple stacks, each with its own list of preinstalled tool versions."
+summary: On [bitrise.io](https://www.bitrise.io), we have `macOS` and `Linux` virtual
+  machines hosted for your builds. You can select from multiple stacks, each with
+  its own list of preinstalled tool versions.
 sidebar: Bitrise_io
 permalink: virtual-machines.html
 folder: Bitrise_io

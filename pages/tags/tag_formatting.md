@@ -1,5 +1,5 @@
 ---
-title: "Formatting pages"
+title: Formatting pages
 tagName: formatting
 search: exclude
 permalink: tag_formatting.html

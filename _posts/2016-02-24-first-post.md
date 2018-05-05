@@ -1,8 +1,10 @@
 ---
-title:  "Welcome to Jekyll!"
+title: Welcome to Jekyll!
 categories: jekyll update
 permalink: myupdate.html
-tags: [news]
+tags:
+- news
+date: 2016-02-24 00:00:00 +0000
 ---
 
 

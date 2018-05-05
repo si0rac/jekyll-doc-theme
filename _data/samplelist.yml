@@ -1,76 +1,63 @@
+---
 entries:
 - title: Sidebar
   folders:
   - title: Food
-
     folderitems:
     - title: Bananas
       url: bananas.html
-
       subfolder:
       - title: Apples
-
         subfolderitems:
-        - title:  Fuji apples
+        - title: Fuji apples
           url: fuji_apples.html
-
-
         - title: Gala apples
           url: gala_apples.html
-
 name:
   husband: Tom
   wife: Shannon
-
 bikes:
-  - title: mountain bikes
-  - title: road bikes
-  - title: hybrid bikes
-
-
+- title: mountain bikes
+- title: road bikes
+- title: hybrid bikes
 salesteams:
-  - title: Regions
-    subfolderitems:
-      - location: US
-      - location: Spain
-      - location: France
-
+- title: Regions
+  subfolderitems:
+  - location: US
+  - location: Spain
+  - location: France
 toc:
-  - title: Group 1
-    subfolderitems:
-      - page: Thing 1
-      - page: Thing 2
-      - page: Thing 3
-  - title: Group 2
-    subfolderitems:
-      - page: Piece 1
-      - page: Piece 2
-      - page: Piece 3
-  - title: Group 3
-    subfolderitems:
-      - page: Widget 1
-      - page: Widget 2
-      - page: Widget 3
-
-something: &hello Greetings earthling!
-myref: *hello
-
+- title: Group 1
+  subfolderitems:
+  - page: Thing 1
+  - page: Thing 2
+  - page: Thing 3
+- title: Group 2
+  subfolderitems:
+  - page: Piece 1
+  - page: Piece 2
+  - page: Piece 3
+- title: Group 3
+  subfolderitems:
+  - page: Widget 1
+  - page: Widget 2
+  - page: Widget 3
+something: Greetings earthling!
+myref: Greetings earthling!
 about:
- - zero
- - one
- - two
- - three 
-
+- zero
+- one
+- two
+- three
 numbercolors:
- - zero:
-   properties: red
- - one:
-   properties: yellow
- - two: 
-   properties: green
- - three:
-   properties: blue
-
+- zero: 
+  properties: red
+- one: 
+  properties: yellow
+- two: 
+  properties: green
+- three: 
+  properties: blue
 mypages:
 - section1: Section 1
   audience: developers
@@ -92,16 +79,8 @@ mypages:
   audience: writers
   product: acme
   url: microsoft.com
-
-feedback: > 
-  This is my feedback to you.
-  Even if I include linebreaks here,
-  all of the linebreaks will be removed when the value is inserted.
-    
-block: |
-    This pipe does something a little different. 
-    It preserves the breaks.
-    This is really helpful for code samples, 
-    since you can format the code samples with
-       the appropriate
-       white spacing.
+feedback: "This is my feedback to you. Even if I include linebreaks here, all of the
+  linebreaks will be removed when the value is inserted.\n  \n"
+block: "This pipe does something a little different. \nIt preserves the breaks.\nThis
+  is really helpful for code samples, \nsince you can format the code samples with\n
+  \  the appropriate\n   white spacing."

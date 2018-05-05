@@ -1,9 +1,11 @@
 ---
 title: Available Stacks
-tags: [formatting]
+tags:
+- formatting
 keywords: popovers, tooltips, user interface text, glossaries, definitions
 last_updated: July 3, 2016
-summary: "The Stack indicates the virtual machine version that we will use to run your build."
+summary: The Stack indicates the virtual machine version that we will use to run your
+  build.
 sidebar: Bitrise_io
 permalink: available-stacks.html
 folder: Bitrise_io
