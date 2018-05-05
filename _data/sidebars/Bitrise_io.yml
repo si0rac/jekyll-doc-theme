@@ -4,15 +4,15 @@ entries:
   product: Bitrise Devcenter
   version: 6.0
   folders:
-  - title: 
+  - title:
     output: pdf
     type: frontmatter
     folderitems:
-    - title: 
+    - title:
       url: "/titlepage.html"
       output: pdf
       type: frontmatter
-    - title: 
+    - title:
       url: "/tocpage.html"
       output: pdf
       type: frontmatter
@@ -20,7 +20,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Connecting a repository
-      url: "/connecting-a-repository.html"
+      url: "/getting-started-with-bitrise.html"
       output: web, pdf
   - title: Infrastructure
     output: web, pdf
@@ -30,4 +30,7 @@ entries:
       output: web, pdf
     - title: Available Stacks
       url: "/available-stacks.html"
+      output: web, pdf
+    - title: Basics of bitrise.yml
+      url: "/basics-bitrise-yml.html"
       output: web, pdf
