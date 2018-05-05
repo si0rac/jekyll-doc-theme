@@ -2,7 +2,8 @@
 title: What is Bitrise
 sidebar: product2_sidebar
 permalink: bitrise_whatis2.html
-summary: "Bitrise is a Continous Delivery and Integration Platform, focused on mobile app development."
+summary: Bitrise is a Continous Delivery and Integration Platform, focused on mobile
+  app development.
 folder: product2
 ---
 
