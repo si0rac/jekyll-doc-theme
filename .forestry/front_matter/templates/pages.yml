@@ -1,5 +1,6 @@
 ---
 pages:
+- pages/Bitrise_io/adding-a-new-app.md
 - pages/Bitrise_io/virtual-machines.md
 - tooltips.html
 - pdfconfigs/tocpage.html
