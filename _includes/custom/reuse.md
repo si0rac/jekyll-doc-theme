@@ -1,1 +1,4 @@
-[Check out netlify.com](www.netlify.com)
+---
+title: Test reuse
+---
+Attempting reuse properly this time.
