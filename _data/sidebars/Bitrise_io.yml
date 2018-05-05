@@ -19,7 +19,7 @@ entries:
   - title: Getting started with Bitrise.io
     output: web, pdf
     folderitems:
-    - title: Connecting a repository
+    - title: Getting started with Bitrise
       url: "/getting-started-with-bitrise.html"
       output: web, pdf
   - title: Infrastructure
