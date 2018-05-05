@@ -1,0 +1,68 @@
+---
+pages:
+- _posts/2016-02-26-sample-post-jekyll.md
+- _posts/2016-02-24-first-post.md
+- _posts/2015-04-12-test-post-last-year.md
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: published
+  label: Published
+  type: boolean
+  hidden: false
+  default: ''
+- name: summary
+  label: Summary
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: search
+  label: Search
+  type: boolean
+  hidden: false
+  default: true
+- name: sidebar
+  label: Sidebar
+  type: text
+  hidden: false
+  default: home_sidebar
+- name: topnav
+  label: Topnav
+  type: text
+  hidden: false
+  default: topnav
